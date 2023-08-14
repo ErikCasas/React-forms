@@ -6,33 +6,34 @@ react es una biblioteca la cual facilita la creación de interfaces de usuario, 
 esto conlleva a que la creación y control de formularios, sea mucho mas fácil, esto a traves de algunos _hooks_ como _**useState**_ y _**useEffect**_.
 
 Los formularios son aquellos espacios en nuestro sitio web en los que el usuario puede ingresar algún dato, para ello, lo primero que necesitamos, es la etiqueta **HTML** _\<input/>_ y a según nuestros intereses, debemos definir, el tipo de _\<input/>_ que utilizaremos. Algunos de los tipos comunes son:
+###### En el código de readme.md queda el código HTML con cada input
 
-###### podemos ingresar texto || \<input type="text">
+#### podemos ingresar texto || \<input type="text">
 <input type="text"> 
 
 ---
 
-###### podemos ingresar números || \<input type="number"> 
+#### podemos ingresar números || \<input type="number"> 
 <input type="number"> 
 
 ---
-###### podemos ingresar archivos || \<input type="file">  
+#### podemos ingresar archivos || \<input type="file">  
 <input type="file">
 
 ---
-###### podemos ingresar la fecha || \<input type="date">  
+#### podemos ingresar la fecha || \<input type="date">  
 <input type="date">  
 
 ---
-###### podemos marcar una opciónm entre varias || \<input type="radius">  
+#### podemos marcar una opciónm entre varias || \<input type="radius">  
 <input type="radio">
 
 ---
-###### podemos ingresar un rango numerico || \<input type="range"> 
+#### podemos ingresar un rango numerico || \<input type="range"> 
 <input type="range">
 
 ---
-###### podemos marcar una casilla de verificaión || \<input type="checkbox"> 
+#### podemos marcar una casilla de verificaión || \<input type="checkbox"> 
 
 <input type="checkbox">
 
