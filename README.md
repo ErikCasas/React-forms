@@ -57,8 +57,10 @@ function Component(){
         <input 
         type="text" 
         value={value}
-        onChange={(event)=>{setValue(event.target.value)}}/>
+        onChange={(event)=>{setValue(event.currentTarget.value)}}//currentTarget es una alternativa para acceder a value
+        />
     )
 }
 ```
 
+Finalmente ya con el valor del input, en una variable mas facíl de manipular, 
