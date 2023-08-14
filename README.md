@@ -33,6 +33,7 @@ Los formularios son aquellos espacios en nuestro sitio web en los que el usuario
 
 ---
 ###### podemos marcar una casilla de verificaión || \<input type="checkbox"> 
+
 <input type="checkbox">
 
 ---
