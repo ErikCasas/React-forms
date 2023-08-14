@@ -15,15 +15,6 @@ const Form = () => {
       return setError("Debes ser mayor de 18");
     }
 
-    //Lo que sucedio en clases es que el operador typeof 
-    //retorna un string diciendo el tipo de dato:
-    // typeof([]) ==> "array"
-    //por ende la comparación que se hizo en clases era erronea
-    //typeof(age) = "number"
-    //entonces en el if teniamos algo como 
-    //"number" !== Number 
-    //ademas de que Number es una funcion de js
-
     if (typeof age !== "number") {
       return setError("Debe ser un dato numerico");
     }
