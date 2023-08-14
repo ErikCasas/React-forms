@@ -7,7 +7,7 @@ esto conlleva a que la creación y control de formularios, sea mucho mas fácil,
 
 Los formularios son aquellos espacios en nuestro sitio web en los que el usuario puede ingresar algún dato, para ello, lo primero que necesitamos, es la etiqueta **HTML** _\<input/>_ y a según nuestros intereses, debemos definir, el tipo de _\<input/>_ que utilizaremos. Algunos de los tipos comunes son:
 
-###### input de tipo texto || \<input type="text">
+###### podemos ingresar texto || \<input type="text">
 <input type="text"> 
 
 ---
